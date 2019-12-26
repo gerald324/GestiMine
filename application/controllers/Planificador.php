@@ -36,6 +36,6 @@ class Planificador extends CI_Controller{
 		$content_data = array(
 
 		);
-		$this->load->view('editar_plan.php');
+		$this->load->view('planificador_editar_plan.php');
 	}
 }
