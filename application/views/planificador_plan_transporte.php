@@ -191,7 +191,7 @@
 				<div class="col-lg-12">
 					<div class="card">
 						<div class="card-header">
-							<strong class="card-title">Cronograma</strong>
+							<strong class="card-title"><?php echo "Transporte"; ?></strong>
 						</div>
 						<div class="card-body">
 							<table class="table">

@@ -42,6 +42,9 @@
 				<li>
 					<a href="alertas"><i class="menu-icon fa fa-exclamation-triangle"></i>Alertas </a>
 				</li><!--Esto redirecciona al aviso de alerta-->
+				<li>
+					<a href="alertas"><i class="menu-icon fa fa-exclamation-triangle"></i>Alertas </a>
+				</li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
@@ -191,7 +194,7 @@
 				<div class="col-lg-12">
 					<div class="card">
 						<div class="card-header">
-							<strong class="card-title">Cronograma</strong>
+							<strong class="card-title"><?php echo "Cronograma"; ?></strong>
 						</div>
 						<div class="card-body">
 							<table class="table">
@@ -311,9 +314,418 @@
 					</div>
 				</div>
 				<!-- NO BORRAR LO DE ARRIBA --------------------------------------------------------------------------------------------------------------------------------------------------->
+				<?php /*LO DE MÁS ABAJO: MODULO*/?>
+				<div class="col-lg-12">
+					<div class="card">
+						<div class="card-header">
+							<strong class="card-title"><?php echo "Módulo 1"; ?></strong>
+						</div>
+						<div class="card-body">
+							<table class="table">
+								<?php /*<thead class="thead-dark">
+								<tr>
+									<th scope="col">#</th>
+									<th scope="col">Infraestructura</th>
+									<th scope="col">Sección</th>
+									<th scope="col">Área</th>
+									<th scope="col">Total</th>
+									<th scope="col">Año 1</th>
+									<th scope="col">Año 2</th>
+									<th scope="col">Año 3</th>
+									<th scope="col">Total</th>
+								</tr>
+								</thead>*/
+								?>
+								<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td><?php echo "Galería Undercut A"; ?></td>
+									<td>5x5</td>
+									<td>25</td>
+									<td>5000</td>
+									<td>4500</td>
+									<td>500</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td><?php echo "Galería Undercut B"; ?></td>
+									<td>5x5</td>
+									<td>25</td>
+									<td>4000</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td><?php echo "Gal. Perforación A1"; ?></td>
+									<td>5x5</td>
+									<td>25</td>
+									<td>300</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
 
+								</tr>
+								<tr>
+									<th scope="row">4</th>
+									<td><?php echo "Galería Undercut A2"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">5</th>
+									<td><?php echo "Galería Undercut B1"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">6</th>
+									<td><?php echo "Galería Undercut B2"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">7</th>
+									<td><?php echo "Galería Producción"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Estocada Carguío 1"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Estocada Carguío 2"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Estocada Carguío 3"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Estocada Carguío Etc."; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Chimenea Cara Libre A"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Chimenea Cara Libre B"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Estocada Cara Libre A"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Estocada Cara Libre B"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Gal. Cara Libre A1"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Gal. Cara Libre A2"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Gal. Cara Libre B1"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td><?php echo "Gal. Cara Libre B2"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								</tbody>
+							</table>
 
+						</div>
+					</div>
+				</div>
+				<?php /*FIN DE MODULO
+				Generar más módulos segun existan más módulos en base de datos
+ 				Generarlos antes de los totales de abajo
+ 				*/?>
+				<div class="col-lg-12">
+					<div class="card">
+						<div class="card-body">
+							<table class="table">
+								<tr>
+									<th scope="row"> </th>
+									<td>Total</td>
+									<td>	</td>
+									<td>	</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
 
+				<?php /*PRODUCCION*/?>
+				<div class="col-lg-12">
+					<div class="card">
+						<div class="card-header">
+							<strong class="card-title"><?php echo "Producción"; ?></strong>
+						</div>
+						<div class="card-body">
+							<table class="table">
+								<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td><?php echo "Mo. 1"; ?></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td><?php echo "Batea A"; ?></td>
+									<td>5x5</td>
+									<td>25</td>
+									<td>4000</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td><?php echo "Batea B"; ?></td>
+									<td>5x5</td>
+									<td>25</td>
+									<td>300</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+
+								</tr>
+								<tr>
+									<th scope="row">4</th>
+									<td><?php echo "Pilares"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">5</th>
+									<td><?php echo "Mo. 2"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">6</th>
+									<td>><?php echo "Batea A"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">7</th>
+									<td>><?php echo "Batea B"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td>><?php echo "Pilares"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td>><?php echo "Mo. 3"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td>><?php echo "Batea A"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td>><?php echo "Batea B"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">8</th>
+									<td>><?php echo "Pilares"; ?></td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row"> </th>
+									<td>Total</td>
+									<td>	</td>
+									<td>	</td>
+								</tr>
+								</tbody>
+							</table>
+
+						</div>
+					</div>
+				</div>
 
 			</div>
 		</div><!-- .animated -->
