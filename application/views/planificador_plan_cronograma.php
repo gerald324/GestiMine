@@ -43,8 +43,24 @@
 					<a href="alertas"><i class="menu-icon fa fa-exclamation-triangle"></i>Alertas </a>
 				</li><!--Esto redirecciona al aviso de alerta-->
 				<li>
-					<a href="alertas"><i class="menu-icon fa fa-exclamation-triangle"></i>Alertas </a>
+					<a href=<?php echo "cronograma"?>><i class="menu-icon fa fa-exclamation-triangle"></i><?php echo "Cronograma"?></a>
 				</li>
+				<li>
+					<a href=<?php echo "plan_minero"?>><i class="menu-icon fa fa-exclamation-triangle"></i><?php echo "Plan Minero"?></a>
+				</li>
+				<li>
+					<a href=<?php echo "perforacion"?>><i class="menu-icon fa fa-exclamation-triangle"></i><?php echo "Perforación"?>></a>
+				</li>
+				<li>
+					<a href=<?php echo "tronadura"?>><i class="menu-icon fa fa-exclamation-triangle"></i><?php echo "Tronadura"?></a>
+				</li>
+				<li>
+					<a href=<?php echo "carguio"?>><i class="menu-icon fa fa-exclamation-triangle"></i><?php echo "Carguío"?></a>
+				</li>
+				<li>
+					<a href=<?php echo "transporte"?>><i class="menu-icon fa fa-exclamation-triangle"></i><?php echo "Transporte"?></a>
+				</li>
+
 			</ul>
 		</div><!-- /.navbar-collapse -->
 	</nav>
@@ -189,12 +205,12 @@
 		<div class="animated fadeIn">
 			<div class="row">
 
-
 				<!-- NO BORRAR LO QUE SIGUE----------------------------------------------------------------------------------------------------------------------------------------->
 				<div class="col-lg-12">
 					<div class="card">
 						<div class="card-header">
 							<strong class="card-title"><?php echo "Cronograma"; ?></strong>
+							<button onclick="window.location.href='/MinetoPlant/Planificador/editar'" type="button" class="btn btn-primary"><?php echo "Editar"?></button>
 						</div>
 						<div class="card-body">
 							<table class="table">
@@ -319,6 +335,7 @@
 					<div class="card">
 						<div class="card-header">
 							<strong class="card-title"><?php echo "Módulo 1"; ?></strong>
+							<button onclick="window.location.href='/MinetoPlant/Planificador/editar'" type="button" class="btn btn-primary"><?php echo "Editar"?></button>
 						</div>
 						<div class="card-body">
 							<table class="table">
@@ -577,6 +594,7 @@
 					<div class="card">
 						<div class="card-header">
 							<strong class="card-title"><?php echo "Producción"; ?></strong>
+							<button onclick="window.location.href='/MinetoPlant/Planificador/editar'" type="button" class="btn btn-primary"><?php echo "Editar"?></button>
 						</div>
 						<div class="card-body">
 							<table class="table">
